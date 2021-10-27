@@ -114,8 +114,8 @@ while ch:
     if i != 'ft':
         print('Do you want to see the instructions on how to play the game?')
         while i not in ['N', 'Y']:
-            inp = input('Say either Y or N: ').upper()
-            if inp not in ['N', 'Y']:
+            i = input('Say either Y or N: ').upper()
+            if i not in ['N', 'Y']:
                 print('The passed value is not recognized.')
     if i == 'Y' or i == 'ft':
         instruct()
